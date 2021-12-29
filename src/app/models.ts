@@ -1,4 +1,5 @@
 export interface Game {
+    id: number;
     background_image: string;
     name: string;
     released: string;
@@ -25,6 +26,7 @@ export interface Game {
   interface ParentPlatform {
     platform: {
       slug: string;
+      name: string;
     };
   }
   
